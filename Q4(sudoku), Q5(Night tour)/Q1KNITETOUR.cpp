@@ -3,7 +3,7 @@ using namespace std;
 
 #define Size 9
 bool isEmpty(vector<vector<int>> &sudoku,int &row, int &col) {
-      for (row = 0; row< Size; row++) {
+      for (row = 0; row < Size; row++) {
           for (col= 0; col < Size; col++) {
               if (sudoku[row][col] ==0) {
                    return true;
