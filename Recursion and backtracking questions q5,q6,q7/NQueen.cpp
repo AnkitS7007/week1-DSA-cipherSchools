@@ -6,7 +6,7 @@ public:
     bool valid(int row,int col,vector<string> arr)
     {
         int n = arr.size();
-        for(int i=0;i<n;i++){
+        for(int i = 0;i<n;i++){
             if(arr[row][i]!='.'){
                 return false;
             }
